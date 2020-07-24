@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:ads="clr-namespace:BudgetExpense.ViewModels;assembly=BudgetExpense"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BudgetExpense.View.AddFundPage" Title="">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="View Funds"/>
+    </ContentPage.ToolbarItems>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <TableView Grid.Row="0" Visual="Material" Intent="Form" Margin="16,0">
+            <TableRoot>
+                <TableSection Title="FUND DETAILS">
+                    <EntryCell Text="{Binding Path=Fund.Source}" Placeholder="Source"/>
+                    <EntryCell Placeholder="Amount" Text="{Binding Path=Fund.Amount}"/>
+                </TableSection>
+                <TableSection>
+                    <ViewCell>
+                        <Button Text="Save" Command="{Binding SaveFundCommand}" Visual="Material" BackgroundColor="Blue" TextColor="White"/>
+                    </ViewCell>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+        <!--<ads:AdMobView BackgroundColor="Red" Grid.Row="1"/>-->
+    </Grid>
+</ContentPage>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Name="budgetPage"
+             x:Class="BudgetExpense.View.BudgetingPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="+ Fund" Command="{Binding AddFundCommand}"/>
+        <ToolbarItem Text="View Funds" Command="{Binding ViewFundCommand}"/>
+        <ToolbarItem Text="+ Expense" Command="{Binding AddExpenseCommand}"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Row="0">
+                <Entry IsEnabled="False" Placeholder="Total Fund: " x:Name="txtFund" Margin="10,5,10,5" VerticalOptions="Center" Text="{Binding MyFundValue, StringFormat='{0:N}'}" FontAttributes="Bold" FontSize="Large" Visual="Material" HorizontalTextAlignment="Center" FontFamily="Impact"/>
+                <Entry IsEnabled="False" Placeholder="Total Expense: " x:Name="txtExpense" Margin="10,5,10,5" VerticalOptions="Center" Text="{Binding MyExpenseValue, StringFormat='{0:N}'}" FontAttributes="Bold" FontSize="Large" Visual="Material" HorizontalTextAlignment="Center" FontFamily="Impact"/>
+                <Entry IsEnabled="False" Placeholder="Total Remaining Balance: " x:Name="txtBalance" Margin="10,5,10,5" VerticalOptions="Center" Text="{Binding MyBalanceValue, StringFormat='{0:N}'}" FontAttributes="Bold" FontSize="Large" Visual="Material" HorizontalTextAlignment="Center" FontFamily="Impact"/>
+                <Label Text="MY EXPENSES" TextColor="Red" FontSize="Body" Margin="5" HorizontalOptions="Center" VerticalOptions="Center"/>
+            </StackLayout>
+            <StackLayout Grid.Row="1">
+                <RefreshView Command="{Binding RefreshDataCommand}" IsRefreshing="{Binding IsRefreshing}">
+                    <ListView 
+                      Visual="Material" ItemsSource="{Binding Expenses}" 
+                      SelectedItem="{Binding SelectedExpense, Mode=TwoWay}" HasUnevenRows="True" SeparatorColor="Gray" ItemSelected="OnExpenseSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid Padding="5">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="130"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="auto"/>
+                                    </Grid.ColumnDefinitions>
+                                        <Label Grid.Column="0" Text="{Binding Amount, StringFormat='{0:N}'}" Visual="Material" FontAttributes="Bold" FontSize="Medium" Margin="10,0,5,0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                                    <Label Grid.Column="1" Text="{Binding Description}" Visual="Material" FontSize="Medium"/>
+                                    <Button Grid.Column="2" Visual="Material" BackgroundColor="Red" WidthRequest="50" HeightRequest="50" Text="X" Command="{Binding Source={x:Reference budgetPage},Path=ViewModel.DeleteExpenseCommand}" CommandParameter="{Binding .}"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                </RefreshView>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

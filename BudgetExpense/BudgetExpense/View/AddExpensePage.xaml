@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ads="clr-namespace:BudgetExpense.ViewModels;assembly=BudgetExpense"
+             mc:Ignorable="d"
+             x:Name="expensePage"
+             x:Class="BudgetExpense.View.AddExpensePage" Title="">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <TableView Grid.Row="0" Visual="Material" Intent="Form" Margin="16,0">
+            <TableRoot>
+                <TableSection Title="EXPENSE DETAILS">
+                    <EntryCell Text="{Binding Path=Expense.Description}" Placeholder="Description"/>
+                    <EntryCell Placeholder="Amount" Text="{Binding Path=Expense.Amount}"/>
+                </TableSection>
+                <TableSection>
+                    <ViewCell>
+                        <Button Text="Save" Command="{Binding SaveExpenseCommand}" Visual="Material" BackgroundColor="Blue" TextColor="White"/>
+                    </ViewCell>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+        <!--<ads:AdMobView BackgroundColor="Red" Grid.Row="1"/>-->
+    </Grid>
+
+</ContentPage>
