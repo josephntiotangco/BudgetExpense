@@ -188,7 +188,7 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.7.0.1142": {
+      "Xamarin.Forms/4.7.0.1179": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -205,10 +205,10 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Visual.Material/4.7.0.1142": {
+      "Xamarin.Forms.Visual.Material/4.7.0.1179": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "4.7.0.1142"
+          "Xamarin.Forms": "4.7.0.1179"
         },
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -617,10 +617,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.7.0.1142": {
-      "sha512": "P/o+VzmgeoFJZ2WoRiar/w0RmkR9WvwAEx6j891Bf31psPjSYjfTI8tGLczFa8LDqdv63pGQNH4hnBoxJjivzg==",
+    "Xamarin.Forms/4.7.0.1179": {
+      "sha512": "QY/wwwG/OTOK9UGUalL4u3fKDQ5bh86nVa+M8bmKCq8/QdgZSXRQ/YVwDh0Mew0MaKsZZwTZUNGOGRc52fb+/Q==",
       "type": "package",
-      "path": "xamarin.forms/4.7.0.1142",
+      "path": "xamarin.forms/4.7.0.1179",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -927,14 +927,14 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.7.0.1142.nupkg.sha512",
+        "xamarin.forms.4.7.0.1179.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Forms.Visual.Material/4.7.0.1142": {
-      "sha512": "fGYVPUQuQiro+7cGPnza0r1UJ/cSeU0jM/iGrJXxB2JyJLGi0R8SwjAbHSve1hcK5kM3vh2GevHtjPY4ciQIVQ==",
+    "Xamarin.Forms.Visual.Material/4.7.0.1179": {
+      "sha512": "lF+3Qf6pKwUNGpQI3HpniN+0mlhnrocw2xqN9NXhm0DjfFP3xsXZY1h83tixvJbsUbfLnmvR8OZSj4U+MqF4xQ==",
       "type": "package",
-      "path": "xamarin.forms.visual.material/4.7.0.1142",
+      "path": "xamarin.forms.visual.material/4.7.0.1179",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -951,7 +951,7 @@
         "lib/netstandard1.0/_._",
         "lib/tizen40/Xamarin.Forms.Material.dll",
         "lib/tizen40/Xamarin.Forms.Material.pdb",
-        "xamarin.forms.visual.material.4.7.0.1142.nupkg.sha512",
+        "xamarin.forms.visual.material.4.7.0.1179.nupkg.sha512",
         "xamarin.forms.visual.material.nuspec"
       ]
     }
@@ -960,8 +960,8 @@
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Essentials >= 1.5.3.2",
-      "Xamarin.Forms >= 4.7.0.1142",
-      "Xamarin.Forms.Visual.Material >= 4.7.0.1142",
+      "Xamarin.Forms >= 4.7.0.1179",
+      "Xamarin.Forms.Visual.Material >= 4.7.0.1179",
       "sqlite-net-pcl >= 1.7.335"
     ]
   },
@@ -972,11 +972,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MY FILES\\MY PROJECTS\\MobileApps\\BudgetExpense\\BudgetExpense\\BudgetExpense\\BudgetExpense.csproj",
+      "projectUniqueName": "D:\\MY FILES\\MY PROJECTS\\GitHub\\BudgetExpense\\BudgetExpense\\BudgetExpense\\BudgetExpense.csproj",
       "projectName": "BudgetExpense",
-      "projectPath": "D:\\MY FILES\\MY PROJECTS\\MobileApps\\BudgetExpense\\BudgetExpense\\BudgetExpense\\BudgetExpense.csproj",
+      "projectPath": "D:\\MY FILES\\MY PROJECTS\\GitHub\\BudgetExpense\\BudgetExpense\\BudgetExpense\\BudgetExpense.csproj",
       "packagesPath": "C:\\Users\\iRipple\\.nuget\\packages\\",
-      "outputPath": "D:\\MY FILES\\MY PROJECTS\\MobileApps\\BudgetExpense\\BudgetExpense\\BudgetExpense\\obj\\",
+      "outputPath": "D:\\MY FILES\\MY PROJECTS\\GitHub\\BudgetExpense\\BudgetExpense\\BudgetExpense\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -1019,11 +1019,11 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.7.0.1142, )"
+            "version": "[4.7.0.1179, )"
           },
           "Xamarin.Forms.Visual.Material": {
             "target": "Package",
-            "version": "[4.7.0.1142, )"
+            "version": "[4.7.0.1179, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",

@@ -3,28 +3,36 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ads="clr-namespace:BudgetExpense.ViewModels;assembly=BudgetExpense"
              mc:Ignorable="d"
              x:Name="fundListPage"
              x:Class="BudgetExpense.View.FundsListPage">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="ADD" Command="{Binding AddFundCommand}"/>
     </ContentPage.ToolbarItems>
-    <ListView ItemsSource="{Binding Funds}" SelectedItem="{Binding SelectedFund, Mode=TwoWay}" SeparatorColor="Gray" HasUnevenRows="True" ItemSelected="OnFundSelected">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="130"/>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="auto"/>
-                        </Grid.ColumnDefinitions>
-                        <Label Grid.Column="0" Text="{Binding Amount, StringFormat='{0:N}'}" Visual="Material" FontSize="Medium" FontAttributes="Bold" Margin="10,0,5,0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
-                        <Label Grid.Column="1" Text="{Binding Source}" Visual="Material" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
-                        <Button Grid.Column="2" Visual="Material" BackgroundColor="Red" WidthRequest="50" Margin="3" HeightRequest="50" Text="X" Command="{Binding Source={x:Reference fundListPage},Path=ViewModel.DeleteFundCommand}" CommandParameter="{Binding .}"/>
-                    </Grid>
-                </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <ListView Grid.Row="0" ItemsSource="{Binding Funds}" SelectedItem="{Binding SelectedFund, Mode=TwoWay}" SeparatorColor="Gray" HasUnevenRows="True" ItemSelected="OnFundSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="130"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" Text="{Binding Amount, StringFormat='{0:N}'}" Visual="Material" FontSize="Medium" FontAttributes="Bold" Margin="10,0,5,0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                            <Label Grid.Column="1" Text="{Binding Source}" Visual="Material" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+                            <Button Grid.Column="2" Visual="Material" BackgroundColor="Red" WidthRequest="50" Margin="3" HeightRequest="50" Text="X" Command="{Binding Source={x:Reference fundListPage},Path=ViewModel.DeleteFundCommand}" CommandParameter="{Binding .}"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <ads:AdMobView HeightRequest="90" BackgroundColor="Red" Grid.Row="1"/>
+    </Grid>
 </ContentPage>

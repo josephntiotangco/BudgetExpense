@@ -23,7 +23,8 @@ namespace BudgetExpense.Droid.Helpers
     public class AdViewRenderer : ViewRenderer<AdMobView,AdView>
     {
         public AdViewRenderer(Context context) : base(context) { }
-        string myAdID = "ca-app-pub-6838059012127071/7646742577";
+        //string myAdID = "ca-app-pub-6838059012127071/7646742577";
+        string myAdID = Constants.myAdID;
         AdSize adSize = AdSize.SmartBanner;
         AdView adView;
         AdView CreateAdView()
@@ -35,8 +36,8 @@ namespace BudgetExpense.Droid.Helpers
             var adParams = new LinearLayout.LayoutParams(LayoutParams.WrapContent, LayoutParams.WrapContent);
 
             adView.LayoutParameters = adParams;
-
-            adView.LoadAd(new AdRequest.Builder().Build());
+            AdRequest adRequest = new AdRequest.Builder().Build();
+            adView.LoadAd(adRequest);
             return adView;
         }
 

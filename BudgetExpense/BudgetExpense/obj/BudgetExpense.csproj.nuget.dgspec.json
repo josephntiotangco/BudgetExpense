@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MY FILES\\MY PROJECTS\\MobileApps\\BudgetExpense\\BudgetExpense\\BudgetExpense\\BudgetExpense.csproj": {}
+    "D:\\MY FILES\\MY PROJECTS\\GitHub\\BudgetExpense\\BudgetExpense\\BudgetExpense\\BudgetExpense.csproj": {}
   },
   "projects": {
-    "D:\\MY FILES\\MY PROJECTS\\MobileApps\\BudgetExpense\\BudgetExpense\\BudgetExpense\\BudgetExpense.csproj": {
+    "D:\\MY FILES\\MY PROJECTS\\GitHub\\BudgetExpense\\BudgetExpense\\BudgetExpense\\BudgetExpense.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MY FILES\\MY PROJECTS\\MobileApps\\BudgetExpense\\BudgetExpense\\BudgetExpense\\BudgetExpense.csproj",
+        "projectUniqueName": "D:\\MY FILES\\MY PROJECTS\\GitHub\\BudgetExpense\\BudgetExpense\\BudgetExpense\\BudgetExpense.csproj",
         "projectName": "BudgetExpense",
-        "projectPath": "D:\\MY FILES\\MY PROJECTS\\MobileApps\\BudgetExpense\\BudgetExpense\\BudgetExpense\\BudgetExpense.csproj",
+        "projectPath": "D:\\MY FILES\\MY PROJECTS\\GitHub\\BudgetExpense\\BudgetExpense\\BudgetExpense\\BudgetExpense.csproj",
         "packagesPath": "C:\\Users\\iRipple\\.nuget\\packages\\",
-        "outputPath": "D:\\MY FILES\\MY PROJECTS\\MobileApps\\BudgetExpense\\BudgetExpense\\BudgetExpense\\obj\\",
+        "outputPath": "D:\\MY FILES\\MY PROJECTS\\GitHub\\BudgetExpense\\BudgetExpense\\BudgetExpense\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -54,11 +54,11 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.7.0.1142, )"
+              "version": "[4.7.0.1179, )"
             },
             "Xamarin.Forms.Visual.Material": {
               "target": "Package",
-              "version": "[4.7.0.1142, )"
+              "version": "[4.7.0.1179, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",

@@ -1,4 +1,5 @@
-﻿using BudgetExpense.Model;
+﻿using BudgetExpense.Data;
+using BudgetExpense.Model;
 using BudgetExpense.Persistence;
 using BudgetExpense.ViewModels;
 using System;
@@ -17,6 +18,7 @@ namespace BudgetExpense.View
     {
         public UserRegistrationPage(UserViewModel viewModel)
         {
+            Constants.myAdID = "ca-app-pub-6838059012127071/5905505242";
             InitializeComponent();
 
             var userStore = new SQLiteUserStore(DependencyService.Get<ISQLiteDb>());

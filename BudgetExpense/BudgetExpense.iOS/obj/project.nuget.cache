@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1KVU5vBcekGWXE8EpYriNIHPk9fZsSScJoRt+YwFOTIDUZ0TIPZlkYrdUa/+IFNrb21uJ2P+Rh/bJUFyAspzAQ==",
+  "dgSpecHash": "FDa/vMsqeLCtZFZBDcFx1xYDYpjXTN5Bp+Z2Py0NNg0JixQDHMqrHaopClnAQa8mwqZ5opZcUTLTFUG9PAR5zA==",
   "success": true,
-  "projectFilePath": "D:\\MY FILES\\MY PROJECTS\\MobileApps\\BudgetExpense\\BudgetExpense\\BudgetExpense.iOS\\BudgetExpense.iOS.csproj",
+  "projectFilePath": "D:\\MY FILES\\MY PROJECTS\\GitHub\\BudgetExpense\\BudgetExpense\\BudgetExpense.iOS\\BudgetExpense.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iRipple\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\iRipple\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
@@ -12,8 +12,8 @@
     "C:\\Users\\iRipple\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\iRipple\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.forms\\4.7.0.1142\\xamarin.forms.4.7.0.1142.nupkg.sha512",
-    "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.forms.visual.material\\4.7.0.1142\\xamarin.forms.visual.material.4.7.0.1142.nupkg.sha512",
+    "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.forms\\4.7.0.1179\\xamarin.forms.4.7.0.1179.nupkg.sha512",
+    "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.forms.visual.material\\4.7.0.1179\\xamarin.forms.visual.material.4.7.0.1179.nupkg.sha512",
     "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.ios.materialcomponents\\92.0.0\\xamarin.ios.materialcomponents.92.0.0.nupkg.sha512"
   ],
   "logs": []

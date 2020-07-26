@@ -44,5 +44,9 @@ namespace BudgetExpense.View
             LoginModel.LoadDataCommand.Execute(null);
             base.OnAppearing();
         }
+        private void OnEntryComplete(object sender, EventArgs e)
+        {
+            LoginModel.ValidateCommand.Execute(null);
+        }
     }
 }

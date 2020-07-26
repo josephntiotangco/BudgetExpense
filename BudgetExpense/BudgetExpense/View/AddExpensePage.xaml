@@ -7,7 +7,7 @@
              mc:Ignorable="d"
              x:Name="expensePage"
              x:Class="BudgetExpense.View.AddExpensePage" Title="">
-    <Grid>
+    <Grid RowSpacing="0">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="auto"/>
@@ -25,7 +25,6 @@
                 </TableSection>
             </TableRoot>
         </TableView>
-        <!--<ads:AdMobView BackgroundColor="Red" Grid.Row="1"/>-->
+        <ads:AdMobView HeightRequest="90" BackgroundColor="Red" Grid.Row="1"/>
     </Grid>
-
 </ContentPage>

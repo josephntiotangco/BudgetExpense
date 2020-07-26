@@ -18,18 +18,16 @@
                 <Label Text="Budget Your Expense" TextColor="White" Margin="10" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Title" FontAttributes="Bold" Visual="Material"/>
             </StackLayout>
             <StackLayout Grid.Row="1">
-                <Entry x:Name="txtUsername" Text="{Binding InputUserName, Mode=TwoWay}"  Placeholder="USERNAME" HorizontalTextAlignment="Center" VerticalOptions="Start" VerticalTextAlignment="Center" Visual="Material" Margin="10,0,10,0"/>
-                <Entry x:Name="txtPassword" Text="{Binding InputPassword, Mode=TwoWay}" Placeholder="PASSWORD" IsPassword="True" HorizontalTextAlignment="Center" VerticalOptions="Start" VerticalTextAlignment="Center" Visual="Material" Margin="10,0,10,0"/>
+                <Entry x:Name="txtUsername" Completed="OnEntryComplete" Text="{Binding InputUserName, Mode=TwoWay}"  Placeholder="USERNAME" HorizontalTextAlignment="Center" VerticalOptions="Start" VerticalTextAlignment="Center" Visual="Material" Margin="10,0,10,0"/>
+                <Entry x:Name="txtPassword" Completed="OnEntryComplete"  Text="{Binding InputPassword, Mode=TwoWay}" Placeholder="PASSWORD" IsPassword="True" HorizontalTextAlignment="Center" VerticalOptions="Start" VerticalTextAlignment="Center" Visual="Material" Margin="10,0,10,0"/>
                 <Button x:Name="btnSignIn" Command="{Binding ValidateCommand}" Visual="Material" BackgroundColor="Blue" Text="SIGN IN" TextColor="White" Margin="10,0,10,0" FontAttributes="Bold" FontSize="Large"/>
                 <Button x:Name="btnViewUsers" Clicked="ViewUsers_Clicked" Visual="Material" BackgroundColor="Blue" Text="ADD USER" TextColor="White" Margin="10,0,10,0" FontAttributes="Bold" FontSize="Large"/>
             </StackLayout>
-            <Grid Grid.Row="2">
-                <StackLayout>
-                    <Label Text="Powered By Xamarin.Forms" VerticalOptions="Center" HorizontalOptions="Center"/>
-                    <Label Text="Copyright 2020 - jnt" VerticalOptions="Center" HorizontalOptions="Center"/>
-                </StackLayout>
-            </Grid>
-            <ads:AdMobView BackgroundColor="Red" Grid.Row="3"/>
+            <StackLayout Grid.Row="2">
+                <Label Text="Powered By Xamarin.Forms" VerticalOptions="Center" HorizontalOptions="Center"/>
+                <Label Text="Copyright 2020 - jnt" VerticalOptions="Center" HorizontalOptions="Center"/>
+            </StackLayout>
+            <ads:AdMobView HeightRequest="90" BackgroundColor="Red" Grid.Row="3"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

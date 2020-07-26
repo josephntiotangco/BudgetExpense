@@ -11,8 +11,8 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.7.0.1142",
-          "Xamarin.Forms.Visual.Material": "4.7.0.1142",
+          "Xamarin.Forms": "4.7.0.1179",
+          "Xamarin.Forms.Visual.Material": "4.7.0.1179",
           "sqlite-net-pcl": "1.7.335"
         },
         "runtime": {
@@ -120,25 +120,25 @@
           }
         }
       },
-      "Xamarin.Forms/4.7.0.1142": {
+      "Xamarin.Forms/4.7.0.1179": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.7.0.463"
+            "fileVersion": "4.7.0.474"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.7.0.463"
+            "fileVersion": "4.7.0.474"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.7.0.463"
+            "fileVersion": "4.7.0.474"
           }
         }
       },
-      "Xamarin.Forms.Visual.Material/4.7.0.1142": {
+      "Xamarin.Forms.Visual.Material/4.7.0.1179": {
         "dependencies": {
-          "Xamarin.Forms": "4.7.0.1142"
+          "Xamarin.Forms": "4.7.0.1179"
         }
       }
     }
@@ -233,19 +233,19 @@
       "path": "xamarin.essentials/1.5.3.2",
       "hashPath": "xamarin.essentials.1.5.3.2.nupkg.sha512"
     },
-    "Xamarin.Forms/4.7.0.1142": {
+    "Xamarin.Forms/4.7.0.1179": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-P/o+VzmgeoFJZ2WoRiar/w0RmkR9WvwAEx6j891Bf31psPjSYjfTI8tGLczFa8LDqdv63pGQNH4hnBoxJjivzg==",
-      "path": "xamarin.forms/4.7.0.1142",
-      "hashPath": "xamarin.forms.4.7.0.1142.nupkg.sha512"
+      "sha512": "sha512-QY/wwwG/OTOK9UGUalL4u3fKDQ5bh86nVa+M8bmKCq8/QdgZSXRQ/YVwDh0Mew0MaKsZZwTZUNGOGRc52fb+/Q==",
+      "path": "xamarin.forms/4.7.0.1179",
+      "hashPath": "xamarin.forms.4.7.0.1179.nupkg.sha512"
     },
-    "Xamarin.Forms.Visual.Material/4.7.0.1142": {
+    "Xamarin.Forms.Visual.Material/4.7.0.1179": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fGYVPUQuQiro+7cGPnza0r1UJ/cSeU0jM/iGrJXxB2JyJLGi0R8SwjAbHSve1hcK5kM3vh2GevHtjPY4ciQIVQ==",
-      "path": "xamarin.forms.visual.material/4.7.0.1142",
-      "hashPath": "xamarin.forms.visual.material.4.7.0.1142.nupkg.sha512"
+      "sha512": "sha512-lF+3Qf6pKwUNGpQI3HpniN+0mlhnrocw2xqN9NXhm0DjfFP3xsXZY1h83tixvJbsUbfLnmvR8OZSj4U+MqF4xQ==",
+      "path": "xamarin.forms.visual.material/4.7.0.1179",
+      "hashPath": "xamarin.forms.visual.material.4.7.0.1179.nupkg.sha512"
     }
   }
 }

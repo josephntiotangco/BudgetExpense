@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SriJJSQFX+nSGzteC/Oex8RCr0cxoIRKfukyCtC6nvo9MAxFS954vSExfauCRFkkEPVWiIKTUWHjAHmtkH28EA==",
+  "dgSpecHash": "43jMyL2RGAPdrv5Bi6LIg17xXDxCAfmjZ99mCMoQ272XuaCKLv3ZqqA/8RSKpYqKKMWSOT+CPOBPSp5JpEqW+A==",
   "success": true,
-  "projectFilePath": "D:\\MY FILES\\MY PROJECTS\\MobileApps\\BudgetExpense\\BudgetExpense\\BudgetExpense\\BudgetExpense.csproj",
+  "projectFilePath": "D:\\MY FILES\\MY PROJECTS\\GitHub\\BudgetExpense\\BudgetExpense\\BudgetExpense\\BudgetExpense.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iRipple\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\iRipple\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
@@ -16,8 +16,8 @@
     "C:\\Users\\iRipple\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\iRipple\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.forms\\4.7.0.1142\\xamarin.forms.4.7.0.1142.nupkg.sha512",
-    "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.forms.visual.material\\4.7.0.1142\\xamarin.forms.visual.material.4.7.0.1142.nupkg.sha512"
+    "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.forms\\4.7.0.1179\\xamarin.forms.4.7.0.1179.nupkg.sha512",
+    "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.forms.visual.material\\4.7.0.1179\\xamarin.forms.visual.material.4.7.0.1179.nupkg.sha512"
   ],
   "logs": []
 }

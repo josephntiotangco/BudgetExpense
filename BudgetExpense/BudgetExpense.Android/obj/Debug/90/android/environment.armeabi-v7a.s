@@ -23,8 +23,8 @@
 	.section	.rodata.env.str.1,"aMS",%progbits,1
 	.type	.L.env.str.1, %object
 .L.env.str.1:
-	.asciz	"com.jnt.budgetexpense"
-	.size	.L.env.str.1, 22
+	.asciz	"com.companyname.budgetexpense"
+	.size	.L.env.str.1, 30
 	.section	.data.application_config,"aw",%progbits
 	.type	application_config, %object
 	.p2align	2
@@ -92,7 +92,7 @@ mono_aot_mode_name:
 	.section	.rodata.env.str.8,"aMS",%progbits,1
 	.type	.L.env.str.8, %object
 .L.env.str.8:
-	.asciz	"a9c2a65c-423e-4d0b-806b-2e054d419941"
+	.asciz	"6ff52b98-af3d-4242-95a4-96d05a624a7d"
 	.size	.L.env.str.8, 37
 	.section	.rodata.env.str.9,"aMS",%progbits,1
 	.type	.L.env.str.9, %object

@@ -17,6 +17,7 @@ namespace BudgetExpense.View
     {
         public FundsListPage(FundViewModel fundView)
         {
+            Constants.myAdID = "ca-app-pub-6838059012127071/2942523886";
             var fundStore = new SQLiteFundStore(DependencyService.Get<ISQLiteDb>());
             var pageService = new PageService();
             

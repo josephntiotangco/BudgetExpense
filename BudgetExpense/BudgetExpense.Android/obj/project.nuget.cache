@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2Ehzb/swPn6w73G3PgHt1YKXTVuvLAi/3411/c21KOkjEQqLYPlkHu3SOtq2mc0c+QS5ONJblUtUfz9EXlplKQ==",
+  "dgSpecHash": "EpIlhzHfQwcrKjbWCWRU59a3yjxSxwgfGmXJdIIjT1IrrX38SSUeDFd8GWKq/2DGhl4tx1SxEnmdz/f4Bz9RjA==",
   "success": true,
-  "projectFilePath": "D:\\MY FILES\\MY PROJECTS\\MobileApps\\BudgetExpense\\BudgetExpense\\BudgetExpense.Android\\BudgetExpense.Android.csproj",
+  "projectFilePath": "D:\\MY FILES\\MY PROJECTS\\GitHub\\BudgetExpense\\BudgetExpense\\BudgetExpense.Android\\BudgetExpense.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iRipple\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\iRipple\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
@@ -57,8 +57,8 @@
     "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.firebase.common\\71.1610.4\\xamarin.firebase.common.71.1610.4.nupkg.sha512",
     "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.firebase.iid\\71.1710.4\\xamarin.firebase.iid.71.1710.4.nupkg.sha512",
     "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.firebase.iid.interop\\71.1601.4\\xamarin.firebase.iid.interop.71.1601.4.nupkg.sha512",
-    "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.forms\\4.7.0.1142\\xamarin.forms.4.7.0.1142.nupkg.sha512",
-    "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.forms.visual.material\\4.7.0.1142\\xamarin.forms.visual.material.4.7.0.1142.nupkg.sha512",
+    "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.forms\\4.7.0.1179\\xamarin.forms.4.7.0.1179.nupkg.sha512",
+    "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.forms.visual.material\\4.7.0.1179\\xamarin.forms.visual.material.4.7.0.1179.nupkg.sha512",
     "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.google.autovalue.annotations\\1.6.5\\xamarin.google.autovalue.annotations.1.6.5.nupkg.sha512",
     "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.googleplayservices.ads.base\\71.1720.4\\xamarin.googleplayservices.ads.base.71.1720.4.nupkg.sha512",
     "C:\\Users\\iRipple\\.nuget\\packages\\xamarin.googleplayservices.ads.identifier\\71.1600.4\\xamarin.googleplayservices.ads.identifier.71.1600.4.nupkg.sha512",
